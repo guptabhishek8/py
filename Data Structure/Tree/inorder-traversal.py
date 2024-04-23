@@ -13,6 +13,9 @@
 #         self.right = right
 
 # RECURSIVE
+# Time Complexity: O(n)
+# Auxiliary Space: O(h)
+
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         ans = []
